@@ -1,3 +1,11 @@
+/* ************************************
+							CLASSES
+************************************ */
+.MyComponent {
+  font-size: 1.2rem;
+  color: #00bbff;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +17,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 20%;
   padding: 20px;
   color: white;
 }
@@ -20,6 +28,51 @@
 
 .App-intro {
   font-size: large;
+}
+
+
+/* ************************************
+							FORM
+************************************ */
+form {
+  margin: 2%;
+}
+
+fieldset {
+  border: none;
+}
+
+#firstName, #lastName {
+	display: block;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	padding: 1.5%;
+  border: none;
+  color: black;
+	font-family: 'Oswald', Helvetica, Open Sans, sans-serif;
+	font-size: 1.0rem;
+  text-decoration: none;
+  cursor: pointer;
+	background-color: rgb(204, 204, 204);
+}
+
+textarea {
+  width: 100%;
+	margin: 1%;
+  padding: 1% 1%;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  resize: none;
+	background-color: rgb(249, 249, 249);
+}
+
+select {
+  width: 20%;
+	margin: 1%;
+	border: none;
+  border-radius: 4px;
+  background-color: rgb(204, 204, 204);
 }
 
 @keyframes App-logo-spin {
