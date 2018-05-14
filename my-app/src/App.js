@@ -22,7 +22,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome to Homeland</h2>
           <MyComponent name="Aktuelle Webtechnologien: Frameworks und Tools (SoSe18)" />
         </div>
         <p className="App-intro">
@@ -38,6 +38,9 @@ class App extends Component {
 }
 
 export default App;
+
+//<MyComponent name="Aktuelle Webtechnologien: Frameworks und Tools (SoSe18)" />
+//<Presentation/>
 
 // Simple page with own component and no controll element
 // import React, { Component } from 'react';

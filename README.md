@@ -1,6 +1,6 @@
 # awftSoSe2018
 ## Members
-- Svenja Charlotte Bednarczyk
+- Svenja
 - Danny Giusa 
 - Marianne Weidlich
 ## Presentation
